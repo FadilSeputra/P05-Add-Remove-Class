@@ -1,38 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body{
   background-color: #2c3e50;
   
 }
-.grid{
-  display: grid;
+.navigasi{
+  height: 80px;
 }
 .grid-header{
   grid-area: header;
   background: #34495e;
   width: 100%;
-  display: flex;
-  flex-direction: row;
 }
 .logo{
-  font-size: 20px;
-  margin: 5px;
-  padding: 15px;
-  display: block;
+  font-size: 35px;
+  font-family: 'Satisfy';
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  display: inline-block;
+  line-height: 30px;
+}
+ul{
+  margin-right: 20px;
+  float: right;
+  display: inline-block;
+  margin-left: 40px;
 }
 li{
   list-style: none;
+  font-family: Verdana;
   float: left;
   padding: 5px;
   font-size: 20px;
 }
 a{
   text-decoration: none;
+  font-weight: lighter;
   color: white;
-}
-ul{
-  display: flex;
-  margin-left: 10px;
-}
-.navigasi{
 }
 .muncul{
   background-color: #7fdbea;
@@ -118,10 +122,6 @@ ul{
 @media only screen and (min-width: 460px) and (max-width:600px) {
   .grid-header{
     width: 100%;
-  }
-  ul, li{
-    margin-left: auto;
-    margin-right: auto;
   }
   .grid-main{
     width: 100%;

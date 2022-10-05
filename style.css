@@ -115,17 +115,47 @@ ul{
 .main{
   justify-content: center;
 }
-
+@media only screen and (min-width: 460px) and (max-width:600px) {
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
 @media only screen and (min-width: 768px){
-  li{
-    float : left;
-    text-align: right;
-    color: black;
-    display: flex;
-    flex-direction: row;
+.grid-header{
+  width: 100%;
+}
+  .grid-main{
+    width: 100%;
   }
-  ul{
-    margin-left: 580px;
-    
+  .grid-footer{
+    width: 100%;
   }
+@media only screen and (min-width: 992px){
+  .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1200px){
+   .grid-header{
+    width: 100%;
+  }
+  .grid-main{
+    width: 100%;
+  }
+  .grid-footer{
+    width: 100%;
+  }
+}
 }
